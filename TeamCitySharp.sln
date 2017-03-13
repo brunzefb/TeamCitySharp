@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{263F35DD-20C1-4209-B121-E962C9328C70}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySharp.IntegrationTests", "src\Tests\IntegrationTests\TeamCitySharp.IntegrationTests.csproj", "{BA409A09-CC7B-4A71-A3D4-FE27234A721B}"
@@ -8,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySharp", "src\TeamCitySharp\TeamCitySharp.csproj", "{87598714-132F-478E-866E-8C1AF3E83057}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCitySharp.UnitTests", "src\Tests\UnitTests\TeamCitySharp.UnitTests.csproj", "{1DA175C4-2A6F-4B52-A9B4-87D382150AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityToConfluence", "TeamCityToConfluence\TeamCityToConfluence.csproj", "{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,18 @@ Global
 		{1DA175C4-2A6F-4B52-A9B4-87D382150AE9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1DA175C4-2A6F-4B52-A9B4-87D382150AE9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1DA175C4-2A6F-4B52-A9B4-87D382150AE9}.Release|x86.ActiveCfg = Release|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Debug|x86.Build.0 = Debug|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{50F4784A-6EFE-4AB7-9AFA-F294F11634D8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
